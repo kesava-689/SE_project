@@ -1,0 +1,117 @@
+/* General Footer Styling */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-main {
+  margin-bottom: 20px;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  color: #0a74da;
+}
+
+.footer-tagline {
+  font-size: 16px;
+  color: #ddd;
+  margin: 10px 0;
+}
+
+/* Social Media Section */
+.social-media {
+  background-color: #fff;
+  color: #0a74da;
+  padding: 15px 0;
+  margin: 20px auto;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+}
+
+.social-media h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 24px;
+}
+
+.social-icon {
+  color: #0a74da;
+  cursor: pointer;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #0056a4;
+}
+
+/* Footer Links Section */
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.footer-section {
+  margin: 0 10px;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #0a74da;
+  transition: color 0.3s;
+}
+
+.footer-heading:hover {text-decoration: none;
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  font-size: 14px;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hover state */
+a:hover {
+  color:#0a74da;
+  text-decoration: none;
+}
+
+.footer-section li:hover {
+  color: #0a74da;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  font-size: 14px;
+  color: #bbb;
+  margin-top: 20px;
+}

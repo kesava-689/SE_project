@@ -1,0 +1,49 @@
+/* Motion Text Container */
+.motion-text-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f0f8ff;
+  padding: 20px 0;
+}
+
+.motion-text {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  animation: scroll-text 50s linear infinite;
+}
+
+/* Keyframes for scrolling text */
+@keyframes scroll-text {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Styling for each motion block */
+.motion-block {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  transition: transform 0.3s ease-in-out;
+}
+
+.motion-block:hover {
+  transform: scale(1.1);
+}
+
+.symbol {
+  margin-right: 10px;
+  font-size: 20px;
+}

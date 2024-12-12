@@ -1,0 +1,103 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .science-container {
+    line-height: 1.8;
+    background-color:white;
+    padding: 20px;
+    color: #000000;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: #6ea5ff;
+    text-align: center;
+    margin: 10px auto;
+    padding: 100px;
+    width: 80%;
+    justify-content: center;
+    border-radius: 70px;
+  }
+  
+  .hero-section h1 {
+    font-size: 35px;
+    color: #000000;
+    line-height: 1;
+  }
+  
+  .hero-section p {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  /* Section Styling */
+  .section {
+    margin: 20px 10px;
+    margin: 10px auto;
+    width: 80%;
+    justify-content: center;
+    padding: 20px;
+    background: #eaf3fd;
+    border-radius: 70px;
+  }
+  
+  .section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  
+  .section p,
+  .section ul {
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  .section h4 {
+    font-size: 22px;
+    color: #05409f;
+    margin-top: 20px;
+  }
+  
+  /* Call-to-Action Section */
+  .cta-section {
+    text-align: center;
+    margin-top: 40px;
+    margin: 10px auto;
+    width: 80%;
+    padding: 30px;
+    background: #4f93f3;
+    border-radius: 70px;
+  }
+  
+  .cta-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  
+  .cta-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .cta-button {
+    background: #f0f4f8;
+    color: blue;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: blue;
+    color: whitesmoke;
+  }
+  
